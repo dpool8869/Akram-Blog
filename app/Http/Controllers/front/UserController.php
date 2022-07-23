@@ -34,7 +34,7 @@ class UserController extends Controller
             "name"  => $request->input("name"),
             "email" => $request->input("email"),
             "address"   => $request->input("address")
-        ])
+        ]);
         return redirect('blog');
 
     }
